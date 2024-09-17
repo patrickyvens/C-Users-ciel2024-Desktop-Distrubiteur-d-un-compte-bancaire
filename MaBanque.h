@@ -8,17 +8,18 @@ class MonCompte
         ~MonCompte();
         void deposerArgent(int somme);
         void retirerArgent(int somme);
-        void consulter();
+		void consulter();
+        
 
 
     private:
 
         int m_solde;
         std::string m_nom;
+		std::string m_prenom;
            
 
 
 };
 
 #endif
-
