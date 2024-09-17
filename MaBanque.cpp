@@ -8,6 +8,7 @@ MonCompte::MonCompte()
 {
     m_solde = 200;
     m_nom = "DOSMEUS";
+    m_prenom = "Yvens";
 }
 
 
