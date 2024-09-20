@@ -1,6 +1,8 @@
 #ifndef DEF_MABANQUE
 #define DEF_MABANQUE
 
+
+
 class MonCompte
 {
     public:
@@ -9,6 +11,7 @@ class MonCompte
         void deposerArgent(int somme);
         void retirerArgent(int somme);
 		void consulter();
+        void annul();
         
 
 
