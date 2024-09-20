@@ -1,21 +1,29 @@
 #include <iostream>
 #include <string>
 #include "MaBanque.h"
+#include <cstdio>
+
+
 
 using namespace std;
 
+
+
+
 MonCompte::MonCompte()
 {
-    m_solde = 200;
+    m_solde = 500;
     m_nom = "DOSMEUS";
     m_prenom = "Yvens";
+    
 }
-
 
 //inutile mais je préfère prendre l'habitude
 MonCompte::~MonCompte()
 {
 }
+
+
 
 void MonCompte::deposerArgent(int somme)
 {
@@ -35,5 +43,6 @@ void MonCompte::retirerArgent(int somme)
         cout << "Actuelmant votre solde est de " << m_solde <<" euros." << endl;
 
     }    
+   
 
 }
